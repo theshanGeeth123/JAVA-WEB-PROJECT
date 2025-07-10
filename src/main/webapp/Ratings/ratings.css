@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    	
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Header start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; 
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Header Styles ===== */
+.app-header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    max-height: 192px;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-icon {
+    font-size: 1.75rem;
+}
+
+.app-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Header end */
+    
+
+.rate-cont{
+	align-items: center;
+  	justify-content: center;
+  	display: grid;
+  	place-items: center;
+}
+
+.allFedName{
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 25vh;
+	font-size: 72px;
+}
+.myFedName{
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 30vh;
+	font-size: 64px;
+}
+
+.display1, .display2 {
+	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15vh;
+	margin-bottom: 10vh;
+	width: 90vw;
+	height: fit-content;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	align-items: center;
+	justify-content:center;
+	padding-right: 5vw;
+	
+}
+.display2{
+	margin-top: 10vh;
+}
+
+.feed {
+	font-size: 14px;
+	font-family: sans-serif;
+	width: 20vw;
+  	color:white;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	background-color: rgb(65, 65, 65);
+  	border-radius: 10px;
+  	margin-top: 20px; 
+  	margin-left: 5vw;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+
+
+}
+.items{
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+	justify-content: center;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+.allfeed{
+	font-size: 14px;
+	font-family: sans-serif;
+	width: 20vw;
+  	color:white;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	background-color: rgb(65, 65, 65);
+  	border-radius: 10px;
+  	margin-top: 20px; 
+  	margin-left: 5vw;
+   	padding-top: 3vh;
+  	padding-bottom: 3vh;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin: 3px;
+  
+}
+
+.upd {
+  background-color: black; 
+  color: white;
+}
+.upd:hover {
+  background-color: green; 
+  transform: scale(1.1); 
+  color: white;
+}
+
+.del {
+  background-color: black; 
+  color: white;
+}
+.del:hover {
+  background-color: red;
+  transform: scale(1.1); 
+  color: white;
+}
+
+.all {
+
+   display: flex;
+   gap: 10px;   
+}
+
+.btn-add {
+   
+   	background-color: black;
+   	color: white;
+   	padding: 10px 15px;
+   	border: none;
+   	border-radius: 6px;
+   	cursor: pointer;
+   	margin: 20px;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+.btn-add:hover{
+	border-color: black;
+	transform: scale(1.25);
+	background-color: #999999;
+	color: black;
+}
+
+
+.btn-myfeed button {
+   	background-color: black;
+   	color: white;
+   	padding: 10px 15px;
+   	border: none;
+   	border-radius: 6px;
+   	cursor: pointer;
+   	margin: 20px;
+   	font-size: 14px;
+	font-weight: bold;
+}
+.btn-myfeed button:hover{
+	border:2px;
+	border-color: black;
+	transform: scale(1.25);
+	background-color: #999999;
+	border-color: solid #000000;
+	color: black;
+}
